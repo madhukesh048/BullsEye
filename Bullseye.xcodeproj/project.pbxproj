@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		407EE5E12333E1E400138C38 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407EE5E02333E1E400138C38 /* AboutViewController.swift */; };
+		407EE5E32333E5C500138C38 /* AboutMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407EE5E22333E5C500138C38 /* AboutMeViewController.swift */; };
 		40FEE97523334F8400B52473 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FEE97423334F8400B52473 /* AppDelegate.swift */; };
 		40FEE97723334F8400B52473 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FEE97623334F8400B52473 /* ViewController.swift */; };
 		40FEE97A23334F8400B52473 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40FEE97823334F8400B52473 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		407EE5E02333E1E400138C38 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		407EE5E22333E5C500138C38 /* AboutMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeViewController.swift; sourceTree = "<group>"; };
 		40FEE97123334F8400B52473 /* Bullseye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bullseye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40FEE97423334F8400B52473 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		40FEE97623334F8400B52473 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +61,8 @@
 				40FEE97423334F8400B52473 /* AppDelegate.swift */,
 				40FEE97623334F8400B52473 /* ViewController.swift */,
 				40FEE97823334F8400B52473 /* Main.storyboard */,
+				407EE5E22333E5C500138C38 /* AboutMeViewController.swift */,
+				407EE5E02333E1E400138C38 /* AboutViewController.swift */,
 				40FEE97B23334F8800B52473 /* Assets.xcassets */,
 				40FEE97D23334F8800B52473 /* LaunchScreen.storyboard */,
 				40FEE98023334F8800B52473 /* Info.plist */,
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				407EE5E12333E1E400138C38 /* AboutViewController.swift in Sources */,
 				40FEE97723334F8400B52473 /* ViewController.swift in Sources */,
+				407EE5E32333E5C500138C38 /* AboutMeViewController.swift in Sources */,
 				40FEE97523334F8400B52473 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
